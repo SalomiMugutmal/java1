@@ -12,7 +12,7 @@ pipeline{
        stage("test"){
          when{
            expression{
-             BRANCH_NAME='deploy'
+             BRANCH_NAME='main'
            }
          }
             steps{
